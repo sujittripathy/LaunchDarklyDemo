@@ -15,7 +15,7 @@ import java.util.Map;
 @SpringBootApplication
 @RestController
 public class LaunchDarklyDemoApplication implements CommandLineRunner{
-	private static LDClient ldClient = new LDClient("sdk-a4f9b1d9-0203-4f93-b137-ef6ea10c0dc0");
+	private static LDClient ldClient = new LDClient("#####");
 
 
 	public static void main(String[] args) {
